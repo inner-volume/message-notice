@@ -1,0 +1,22 @@
+{
+  "name": "openphp/message-notice",
+  "description": "将消息通知发送到第三方平台",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "qmister",
+      "email": "tp5er@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">7.1",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "~6.0|~7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Openphp\\MessageNotice\\": "src/"
+    }
+  }
+}
